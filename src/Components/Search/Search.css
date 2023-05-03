@@ -1,0 +1,28 @@
+.search-form{
+    width: 100%;
+    max-width: 450px;
+    
+}
+
+.search-form-elem{
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.search-form-elem .form-control{
+    font-size: 1.5rem;
+    padding: 0.6rem;
+    border: 0;
+}
+
+.search-form-elem .form-control::placeholder{
+    opacity: 0.9;
+}
+
+.icon-color {
+    color: #e28282;
+}
