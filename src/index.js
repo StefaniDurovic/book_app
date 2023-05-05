@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { AppProvider } from './context';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 // import App from './App';
@@ -13,16 +14,17 @@ import {BookDetails} from './Components/BookDetails/BookDetails';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
-    <Routes>
-      <Route path='/' element={<Home/>}>
-        <Route path='about' element={<About/>}/>
-        <Route path='books' element={<BookList/>}/>
-        <Route path='books/:id' element={<BookDetails/>}/>
-      </Route>
-
-    </Routes>
-  </BrowserRouter>
+  <AppProvider>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <Routes>
+        <Route path="/" element={<Home />}>
+          <Route path="about" element={<About />} />
+          <Route path="books" element={<BookList />} />
+          <Route path="books/:id" element={<BookDetails />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  </AppProvider>
 );
 
 
