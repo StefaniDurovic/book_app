@@ -20,7 +20,6 @@ const AppProvider = ({children}) => {
             const data = await response.json();
             const {docs} = data;
             // const docs = data.docs;    This is the same as the line above, which is using destructuting assignment.
-            console.log(docs);
 
             if (docs) {
                 const newBooks = docs.slice(0,20).map((bookSingle) => {

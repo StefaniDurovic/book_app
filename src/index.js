@@ -14,17 +14,17 @@ import {BookDetails} from './Components/BookDetails/BookDetails';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <AppProvider>
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
-      <Routes>
-        <Route path="/" element={<Home />}>
-          <Route path="about" element={<About />} />
-          <Route path="books" element={<BookList />} />
-          <Route path="books/:id" element={<BookDetails />} />
-        </Route>
-      </Routes>
-    </BrowserRouter>
-  </AppProvider>
+    <AppProvider>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <Routes>
+          <Route path="/" element={<Home />}>
+            <Route path="about" element={<About />} />
+            <Route path="books" element={<BookList />} />
+            <Route path="books/:id" element={<BookDetails />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
+    </AppProvider>
 );
 
 

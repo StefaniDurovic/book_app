@@ -19,7 +19,7 @@ export const Search = () => {
       setResultTitle("Please enter a book title.");
       setSearchTerm("The Lost World");
     } else {
-      setSearchTerm(tempSearchTerm.current.value);
+      setSearchTerm(searchText.current.value);
     }
     navigate("/books");
   };
