@@ -1,6 +1,4 @@
-.loader{
-    padding: 4rem 0;
-}
-.loader img{
-    width: 120px;
+.spinner {
+    margin: 50px 0 70px 0;
+    padding: 50px;
 }

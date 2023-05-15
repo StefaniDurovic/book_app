@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap');
 
 :root{
---purple-color: #8d27ae;
-  --pink-color: #d9176d;
+  --primary-color: #e28282;
+  --secondary-color: #d9176d;
+  --hover-color: #f1c662;
   --grey-color: #f3f3f3;
   --white-color: #fff;
   --black-color: #010101;;
@@ -25,10 +26,6 @@ body{
   line-height: 1.7;
   font-family: 'Manrope', sans-serif;
   color: var(--black-color);
-}
-
-.pozadina {
-  background-color: #d34343a9;
 }
 
 /* resets */
@@ -62,14 +59,14 @@ input{
 }
 
 /* backgrounds */
-.bg-pink{background-color: var(--pink-color);}
-.bg-purple{background-color: var(--purple-color);}
+.bg-secondary{background-color: var(--secondary-color);}
+.bg-primary{background-color: var(--primary-color);}
 .bg-white{background-color: var(--white-color);}
 
 /* text */
 .text-black{color: var(--black-color);}
 .text-white{color: var(--white-color);}
-.text-purple{color: var(--purple-color);}
+.text-primary{color: var(--primary-color);}
 .text-light-black{color: var(--light-black-color);}
 .text-uppercase{text-transform: uppercase;}
 .text-center{text-align: center;}
@@ -121,9 +118,9 @@ input{
   padding: 0 2rem;
 }
 
-/* section title */
-.section-title h2{
-  font-weight: 600;
+.section-title {
   text-transform: uppercase;
-  padding: 18px 0 24px 0;
+  font-weight: 600;
+  padding: 50px 0 30px 0;
+  color: #db4f4f;
 }

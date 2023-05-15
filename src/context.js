@@ -4,15 +4,12 @@ const URL = "https://openlibrary.org/search.json?title=";
 const AppContext = createContext();
 
 const AppProvider = ({children}) => {
-    const [searchTerm, setSearchTerm] = useState("The Lost World");
+    const [searchTerm, setSearchTerm] = useState("");
     const [books, setBooks] = useState([]);
-    const [loading, setLoading] = useState(true);
+    const [loading, setLoading] = useState(false);
     const [resultTitle, setResultTitle] = useState("");
 
     const fetchBooks = useCallback(async() => {
-        if (searchTerm==="") {
-            return {};
-        }
         
         setLoading(true);
         try{

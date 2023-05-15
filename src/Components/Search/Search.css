@@ -5,7 +5,7 @@
 }
 
 .search-form-elem{
-    padding: 0.5rem 1rem;
+    padding: 0.7rem 1rem;
     border-radius: 1rem;
     -webkit-border-radius: 1rem;
     -moz-border-radius: 1rem;
@@ -24,5 +24,9 @@
 }
 
 .icon-color {
-    color: #e28282;
+    color: var(--primary-color);
+}
+
+.icon-color:hover {
+    color: var(--hover-color);
 }

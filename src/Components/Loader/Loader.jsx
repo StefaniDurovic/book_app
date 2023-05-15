@@ -1,11 +1,13 @@
 import React from 'react';
-import loader from '../../img/loader.jpg';
+import { Spinner } from 'react-bootstrap';
 import './Loader.css';
 
 export const Loader = () => {
   return (
-    <div className='loader flex flex-c'>
-      <img src={loader} alt="loader"/>
+    <div className='d-flex justify-content-center'>
+      <Spinner animation="grow" variant="danger" m-auto className='spinner' role="status">
+        <span className="visually-hidden">Loading...</span>
+      </Spinner>
     </div>
   )
 }

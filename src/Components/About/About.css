@@ -15,6 +15,14 @@
     opacity: 0.8;
 }
 
+.about-caption {
+    font-weight: 700;
+    padding: 25px 0 20px 0;
+    color: #db4f4f;
+    text-transform: uppercase;
+    font-size: large;
+}
+
 @media screen and (min-width: 800px){
     .about-content{
         grid-template-columns: repeat(2, 1fr);

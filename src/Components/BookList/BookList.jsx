@@ -24,7 +24,7 @@ export const BookList = () => {
             <section className='bookList'>
               <div className='container'>
                 <div className='section-title'>
-                  <h1>{resultTitle}</h1>
+                  <h2>{resultTitle}</h2>
                 </div>
                 <div className='booklist-content grid'>
                   {

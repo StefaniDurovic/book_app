@@ -4,7 +4,6 @@ import './BookCard.css';
 
 export const BookCard = (book) => {
 
-  console.log(book);
   return (
     <Link to={`/books/${book.id}`} {...book}>
       <div className="book-item flex flex-column flex-sb h-100">
