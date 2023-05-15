@@ -1,18 +1,17 @@
 {
   "files": {
-    "main.css": "/book_app/static/css/main.d343b1f5.css",
-    "main.js": "/book_app/static/js/main.bb32bb9d.js",
+    "main.css": "/book_app/static/css/main.95d3329d.css",
+    "main.js": "/book_app/static/js/main.5f740a25.js",
     "static/media/cover.jpg": "/book_app/static/media/cover.f2e6ad061bf257e6c365.jpg",
     "static/media/booksInHand.jpg": "/book_app/static/media/booksInHand.51ae82d0a734ddb64698.jpg",
     "static/media/about.jpg": "/book_app/static/media/about.6d28f51faafade1c8b1c.jpg",
     "service-worker.js": "/book_app/service-worker.js",
-    "static/media/loader.jpg": "/book_app/static/media/loader.0761637e829a2b9b2999.jpg",
     "index.html": "/book_app/index.html",
-    "main.d343b1f5.css.map": "/book_app/static/css/main.d343b1f5.css.map",
-    "main.bb32bb9d.js.map": "/book_app/static/js/main.bb32bb9d.js.map"
+    "main.95d3329d.css.map": "/book_app/static/css/main.95d3329d.css.map",
+    "main.5f740a25.js.map": "/book_app/static/js/main.5f740a25.js.map"
   },
   "entrypoints": [
-    "static/css/main.d343b1f5.css",
-    "static/js/main.bb32bb9d.js"
+    "static/css/main.95d3329d.css",
+    "static/js/main.5f740a25.js"
   ]
 }
